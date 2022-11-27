@@ -1,0 +1,202 @@
+Starting DmaapMR stub on port:  3905
+Starting SDNR stub on port:  3904
+Sending Dmaap message:
+ {
+        Event:
+        {
+                CommonEventHeader:{
+                        Domain:stndDefined 
+                        EventId:pm-1_164425274 
+                        EventName:stndDefined_performanceMeasurementStreaming 
+                        EventType:performanceMeasurementStreaming 
+                        Sequence:825 
+                        Priority:Low 
+                        ReportingEntityId: 
+                        ReportingEntityName:O-DU-1122 
+                        SourceId: 
+                        SourceName:O-DU-1122 
+                        StartEpochMicrosec:1644252450000000 
+                        LastEpochMicrosec:1644252480000000 
+                        NfNamingCode:SIM-O-DU 
+                        NfVendorName:O-RAN-SC SIM Project 
+                        StndDefinedNamespace:o-ran-sc-du-hello-world-pm-streaming-oas3 
+                        TimeZoneOffset:+00:00 
+                        Version:4.1 
+                        VesEventListenerVersion:7.2.1
+                } 
+                StndDefinedFields:{
+                        StndDefinedFieldsVersion:1.0 
+                        SchemaReference:https://gerrit.o-ran-sc.org/r/gitweb?p=scp/oam/modeling.git;a=blob_plain;f=data-model/oas3/experimental/o-ran-sc-du-hello-world-oas3.json;hb=refs/heads/master 
+                        Data:{
+                                DataId:pm-1_1644252450 
+                                StartTime:2022-02-07T16:47:30.0Z 
+                                AdministrativeState:unlocked 
+                                OperationalState:enabled 
+                                UserLabel:pm 
+                                JobTag:my-job-tag 
+                                GranularityPeriod:30 
+                                Measurements:[{
+                                        MeasurementTypeInstanceReference:/o-ran-sc-du-hello-world:network-function/distributed-unit-functions[id='O-DU-1122']/
+                                        cell[id='cell-1']/supported-measurements[performance-measurement-type='(urn:o-ran-sc:yang:o-ran-sc-du-hello-world?revision=2021-11-23)
+                                        user-equipment-average-throughput-uplink']/supported-snssai-subcounter-instances[slice-differentiator='1'][slice-service-type='2'] 
+                                        Value:4539 Unit:kbit/s}]
+                        }
+                }
+        }
+ }
+Sending Dmaap message:
+ {
+        Event:{
+                CommonEventHeader:{
+                        Domain:stndDefined 
+                        EventId:pm-1_164424030 
+                        EventName:stndDefined_performanceMeasurementStreaming 
+                        EventType:performanceMeasurementStreaming 
+                        Sequence:825 
+                        Priority:Low 
+                        ReportingEntityId: 
+                        ReportingEntityName:O-DU-1122 
+                        SourceId: 
+                        SourceName:O-DU-1122 
+                        StartEpochMicrosec:1644252450000000 
+                        LastEpochMicrosec:1644252480000000 
+                        NfNamingCode:SIM-O-DU 
+                        NfVendorName:O-RAN-SC SIM Project 
+                        StndDefinedNamespace:o-ran-sc-du-hello-world-pm-streaming-oas3 
+                        TimeZoneOffset:+00:00 
+                        Version:4.1 
+                        VesEventListenerVersion:7.2.1
+                } 
+                StndDefinedFields:{
+                        StndDefinedFieldsVersion:1.0 
+                        SchemaReference:https://gerrit.o-ran-sc.org/r/gitweb?p=scp/oam/modeling.git;a=blob_plain;f=data-model/oas3/experimental/o-ran-sc-du-hello-world-oas3.json;hb=refs/heads/master 
+                        Data:{
+                                DataId:pm-1_1644252450 
+                                StartTime:2022-02-07T16:47:30.0Z 
+                                AdministrativeState:unlocked 
+                                OperationalState:enabled 
+                                UserLabel:pm 
+                                JobTag:my-job-tag 
+                                GranularityPeriod:30 
+                                Measurements:[
+                                        {
+                                        MeasurementTypeInstanceReference:/o-ran-sc-du-hello-world:network-function/distributed-unit-functions[id='O-DU-1122']/
+                                        cell[id='cell-1']/supported-measurements[performance-measurement-type='(urn:o-ran-sc:yang:o-ran-sc-du-hello-world?revision=2021-11-23)
+                                        user-equipment-average-throughput-downlink']/supported-snssai-subcounter-instances[slice-differentiator='1'][slice-service-type='2'] 
+                                        Value:5264 Unit:kbit/s
+                                        } 
+                                        {
+                                                MeasurementTypeInstanceReference:/o-ran-sc-du-hello-world:network-function/distributed-unit-functions[id='O-DU-1122']/
+                                        cell[id='cell-1']/supported-measurements[performance-measurement-type='(urn:o-ran-sc:yang:o-ran-sc-du-hello-world?revision=2021-11-23)
+                                        user-equipment-average-throughput-uplink']/supported-snssai-subcounter-instances[slice-differentiator='1'][slice-service-type='2'] 
+                                        Value:4539 Unit:kbit/s
+                                        } 
+                                        {
+                                                MeasurementTypeInstanceReference:/o-ran-sc-du-hello-world:network-function/distributed-unit-functions[id='O-DU-1122']/
+                                        cell[id='cell-1']/supported-measurements[performance-measurement-type='(urn:o-ran-sc:yang:o-ran-sc-du-hello-world?revision=2021-11-23)
+                                        user-equipment-average-throughput-downlink']/supported-snssai-subcounter-instances[slice-differentiator='1'][slice-service-type='2'] 
+                                        Value:5264 Unit:kbit/s
+                                        }
+                                ]
+                        }
+                }
+        }
+}
+Sending Dmaap message:
+ {
+        Event:{
+                CommonEventHeader:{
+                        Domain:stndDefined 
+                        EventId:pm-1_164425788 
+                        EventName:stndDefined_performanceMeasurementStreaming 
+                        EventType:performanceMeasurementStreaming 
+                        Sequence:825 
+                        Priority:Low 
+                        ReportingEntityId: 
+                        ReportingEntityName:O-DU-1122 
+                        SourceId: 
+                        SourceName:O-DU-1122 
+                        StartEpochMicrosec:1644252450000000
+                        LastEpochMicrosec:1644252480000000 
+                        NfNamingCode:SIM-O-DU 
+                        NfVendorName:O-RAN-SC SIM Project 
+                        StndDefinedNamespace:o-ran-sc-du-hello-world-pm-streaming-oas3 
+                        TimeZoneOffset:+00:00 
+                        Version:4.1 
+                        VesEventListenerVersion:7.2.1
+                } 
+                StndDefinedFields:{
+                        StndDefinedFieldsVersion:1.0 
+                        SchemaReference:https://gerrit.o-ran-sc.org/r/gitweb?p=scp/oam/modeling.git;a=blob_plain;f=data-model/oas3/experimental/o-ran-sc-du-hello-world-oas3.json;hb=refs/heads/master 
+                        Data:{
+                                DataId:pm-1_1644252450 
+                                StartTime:2022-02-07T16:47:30.0Z 
+                                AdministrativeState:unlocked 
+                                OperationalState:enabled 
+                                UserLabel:pm 
+                                JobTag:my-job-tag 
+                                GranularityPeriod:30 
+                                Measurements:[
+                                        {
+                                                MeasurementTypeInstanceReference:/o-ran-sc-du-hello-world:network-function/distributed-unit-functions[id='O-DU-1122']/
+                                                cell[id='cell-1']/supported-measurements[performance-measurement-type='(urn:o-ran-sc:yang:o-ran-sc-du-hello-world?revision=2021-11-23)
+                                                user-equipment-average-throughput-uplink']/supported-snssai-subcounter-instances[slice-differentiator='1'][slice-service-type='2'] 
+                                                Value:4539 Unit:kbit/s
+                                        }
+                                ]
+                        }
+                }
+        }
+ }
+Sending Dmaap message:
+ {
+        Event:{
+                CommonEventHeader:{
+                        Domain:stndDefined 
+                        EventId:pm-1_16442239 
+                        EventName:stndDefined_performanceMeasurementStreaming 
+                        EventType:performanceMeasurementStreaming 
+                        Sequence:825 
+                        Priority:Low 
+                        ReportingEntityId: 
+                        ReportingEntityName:O-DU-1122 
+                        SourceId: 
+                        SourceName:O-DU-1122 
+                        StartEpochMicrosec:1644252450000000 
+                        LastEpochMicrosec:1644252480000000 
+                        NfNamingCode:SIM-O-DU 
+                        NfVendorName:O-RAN-SC SIM Project 
+                        StndDefinedNamespace:o-ran-sc-du-hello-world-pm-streaming-oas3 
+                        TimeZoneOffset:+00:00 
+                        Version:4.1 
+                        VesEventListenerVersion:7.2.1
+                } 
+                StndDefinedFields:{
+                        StndDefinedFieldsVersion:1.0 
+                        SchemaReference:https://gerrit.o-ran-sc.org/r/gitweb?p=scp/oam/modeling.git;a=blob_plain;f=data-model/oas3/experimental/o-ran-sc-du-hello-world-oas3.json;hb=refs/heads/master 
+                        Data:{
+                                DataId:pm-1_1644252450 
+                                StartTime:2022-02-07T16:47:30.0Z 
+                                AdministrativeState:unlocked 
+                                OperationalState:enabled 
+                                UserLabel:pm 
+                                JobTag:my-job-tag 
+                                GranularityPeriod:30 
+                                Measurements:[
+                                        {
+                                                MeasurementTypeInstanceReference:/o-ran-sc-du-hello-world:network-function/distributed-unit-functions[id='O-DU-1122']/cell[id='cell-1']/
+                                                supported-measurements[performance-measurement-type='(urn:o-ran-sc:yang:o-ran-sc-du-hello-world?revision=2021-11-23)
+                                                user-equipment-average-throughput-downlink']/supported-snssai-subcounter-instances[slice-differentiator='2'][slice-service-type='1'] 
+                                                Value:7062 Unit:kbit/s
+                                        }
+                                ]
+                        }
+                }
+        }
+ }
+Sending Dmaap message:
+ {Event:{CommonEventHeader:{Domain:stndDefined EventId:pm-1_164422900 EventName:stndDefined_performanceMeasurementStreaming EventType:performanceMeasurementStreaming Sequence:825 Priority:Low ReportingEntityId: ReportingEntityName:O-DU-1122 SourceId: SourceName:O-DU-1122 StartEpochMicrosec:1644252450000000 LastEpochMicrosec:1644252480000000 NfNamingCode:SIM-O-DU NfVendorName:O-RAN-SC SIM Project StndDefinedNamespace:o-ran-sc-du-hello-world-pm-streaming-oas3 TimeZoneOffset:+00:00 Version:4.1 VesEventListenerVersion:7.2.1} StndDefinedFields:{StndDefinedFieldsVersion:1.0 SchemaReference:https://gerrit.o-ran-sc.org/r/gitweb?p=scp/oam/modeling.git;a=blob_plain;f=data-model/oas3/experimental/o-ran-sc-du-hello-world-oas3.json;hb=refs/heads/master Data:{DataId:pm-1_1644252450 StartTime:2022-02-07T16:47:30.0Z AdministrativeState:unlocked OperationalState:enabled UserLabel:pm JobTag:my-job-tag GranularityPeriod:30 Measurements:[{MeasurementTypeInstanceReference:/o-ran-sc-du-hello-world:network-function/distributed-unit-functions[id='O-DU-1122']/cell[id='cell-1']/supported-measurements[performance-measurement-type='(urn:o-ran-sc:yang:o-ran-sc-du-hello-world?revision=2021-11-23)user-equipment-average-throughput-downlink']/supported-snssai-subcounter-instances[slice-differentiator='2'][slice-service-type='1'] Value:5909 Unit:kbit/s} {MeasurementTypeInstanceReference:/o-ran-sc-du-hello-world:network-function/distributed-unit-functions[id='O-DU-1122']/cell[id='cell-1']/supported-measurements[performance-measurement-type='(urn:o-ran-sc:yang:o-ran-sc-du-hello-world?revision=2021-11-23)user-equipment-average-throughput-uplink']/supported-snssai-subcounter-instances[slice-differentiator='2'][slice-service-type='1'] Value:1134 Unit:kbit/s} {MeasurementTypeInstanceReference:/o-ran-sc-du-hello-world:network-function/distributed-unit-functions[id='O-DU-1122']/cell[id='cell-1']/supported-measurements[performance-measurement-type='(urn:o-ran-sc:yang:o-ran-sc-du-hello-world?revision=2021-11-23)user-equipment-average-throughput-downlink']/supported-snssai-subcounter-instances[slice-differentiator='1'][slice-service-type='1'] Value:7086 Unit:kbit/s}]}}}}
+Sending Dmaap message:
+ {Event:{CommonEventHeader:{Domain:stndDefined EventId:pm-1_164422563 EventName:stndDefined_performanceMeasurementStreaming EventType:performanceMeasurementStreaming Sequence:825 Priority:Low ReportingEntityId: ReportingEntityName:O-DU-1122 SourceId: SourceName:O-DU-1122 StartEpochMicrosec:1644252450000000 LastEpochMicrosec:1644252480000000 NfNamingCode:SIM-O-DU NfVendorName:O-RAN-SC SIM Project StndDefinedNamespace:o-ran-sc-du-hello-world-pm-streaming-oas3 TimeZoneOffset:+00:00 Version:4.1 VesEventListenerVersion:7.2.1} StndDefinedFields:{StndDefinedFieldsVersion:1.0 SchemaReference:https://gerrit.o-ran-sc.org/r/gitweb?p=scp/oam/modeling.git;a=blob_plain;f=data-model/oas3/experimental/o-ran-sc-du-hello-world-oas3.json;hb=refs/heads/master Data:{DataId:pm-1_1644252450 StartTime:2022-02-07T16:47:30.0Z AdministrativeState:unlocked OperationalState:enabled UserLabel:pm JobTag:my-job-tag GranularityPeriod:30 Measurements:[{MeasurementTypeInstanceReference:/o-ran-sc-du-hello-world:network-function/distributed-unit-functions[id='O-DU-1122']/cell[id='cell-1']/supported-measurements[performance-measurement-type='(urn:o-ran-sc:yang:o-ran-sc-du-hello-world?revision=2021-11-23)user-equipment-average-throughput-downlink']/supported-snssai-subcounter-instances[slice-differentiator='1'][slice-service-type='1'] Value:1468 Unit:kbit/s} {MeasurementTypeInstanceReference:/o-ran-sc-du-hello-world:network-function/distributed-unit-functions[id='O-DU-1122']/cell[id='cell-1']/supported-measurements[performance-measurement-type='(urn:o-ran-sc:yang:o-ran-sc-du-hello-world?revision=2021-11-23)user-equipment-average-throughput-uplink']/supported-snssai-subcounter-instances[slice-differentiator='1'][slice-service-type='1'] Value:5861 Unit:kbit/s} {MeasurementTypeInstanceReference:/o-ran-sc-du-hello-world:network-function/distributed-unit-functions[id='O-DU-1122']/cell[id='cell-1']/supported-measurements[performance-measurement-type='(urn:o-ran-sc:yang:o-ran-sc-du-hello-world?revision=2021-11-23)user-equipment-average-throughput-downlink']/supported-snssai-subcounter-instances[slice-differentiator='2'][slice-service-type='1'] Value:7059 Unit:kbit/s}]}}}}
+Sending Dmaap message:
+ {Event:{CommonEventHeader:{Domain:stndDefined EventId:pm-1_164424205 EventName:stndDefined_performanceMeasurementStreaming EventType:performanceMeasurementStreaming Sequence:825 Priority:Low ReportingEntityId: ReportingEntityName:O-DU-1122 SourceId: SourceName:O-DU-1122 StartEpochMicrosec:1644252450000000 LastEpochMicrosec:1644252480000000 NfNamingCode:SIM-O-DU NfVendorName:O-RAN-SC SIM Project StndDefinedNamespace:o-ran-sc-du-hello-world-pm-streaming-oas3 TimeZoneOffset:+00:00 Version:4.1 VesEventListenerVersion:7.2.1} StndDefinedFields:{StndDefinedFieldsVersion:1.0 SchemaReference:https://gerrit.o-ran-sc.org/r/gitweb?p=scp/oam/modeling.git;a=blob_plain;f=data-model/oas3/experimental/o-ran-sc-du-hello-world-oas3.json;hb=refs/heads/master Data:{DataId:pm-1_1644252450 StartTime:2022-02-07T16:47:30.0Z AdministrativeState:unlocked OperationalState:enabled UserLabel:pm JobTag:my-job-tag GranularityPeriod:30 Measurements:[{MeasurementTypeInstanceReference:/o-ran-sc-du-hello-world:network-function/distributed-unit-functions[id='O-DU-1122']/cell[id='cell-1']/supported-measurements[performance-measurement-type='(urn:o-ran-sc:yang:o-ran-sc-du-hello-world?revision=2021-11-23)user-equipment-average-throughput-downlink']/supported-snssai-subcounter-instances[slice-differentiator='1'][slice-service-type='2'] Value:7023 Unit:kbit/s}]}}}}

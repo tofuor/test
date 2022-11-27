@@ -1,0 +1,3939 @@
+[
+  {
+    "id": "O-DU-1122",
+    "operational-state": "enabled",
+    "administrative-state": "unlocked",
+    "user-label": "O-DU-1122",
+    "radio-resource-management-policy-ratio": [
+      {
+        "id": "rrm-pol-1",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-1",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-2",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-2",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-3",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-3",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-4",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-4",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-5",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-5",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 3,
+            "slice-service-type": 1
+          }
+        ]
+      }
+    ],
+    "cell": [
+      {
+        "id": "cell-1",
+        "local-id": 1,
+        "physical-cell-id": 1,
+        "base-station-channel-bandwidth": {
+          "uplink": 83000,
+          "downlink": 80000,
+          "supplementary-uplink": 84000
+        },
+        "operational-state": "enabled",
+        "tracking-area-code": 10,
+        "administrative-state": "unlocked",
+        "public-land-mobile-networks": [
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          }
+        ],
+        "supported-measurements": [
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-uplink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          },
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-downlink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          }
+        ],
+        "traffic-state": "active",
+        "absolute-radio-frequency-channel-number": {
+          "uplink": 14000,
+          "downlink": 15000,
+          "supplementary-uplink": 14500
+        },
+        "user-label": "cell-1",
+        "synchronization-signal-block": {
+          "duration": 2,
+          "frequency-channel-number": 12,
+          "periodicity": 10,
+          "subcarrier-spacing": 30,
+          "offset": 3
+        }
+      }
+    ]
+  }
+]{
+  "radio-resource-management-policy-ratio": [
+    {
+      "id": "rrm-pol-2",
+      "administrative-state": "unlocked",
+      "user-label": "rrm-pol-2",
+      "radio-resource-management-policy-max-ratio": 20,
+      "radio-resource-management-policy-min-ratio": 10,
+      "radio-resource-management-policy-dedicated-ratio": 25,
+      "resource-type": "prb",
+      "radio-resource-management-policy-members": [
+        {
+          "mobile-country-code": "046",
+          "mobile-network-code": "651",
+          "slice-differentiator": 1,
+          "slice-service-type": 2
+        }
+      ]
+    }
+  ]
+}[
+  {
+    "id": "O-DU-1122",
+    "operational-state": "enabled",
+    "administrative-state": "unlocked",
+    "user-label": "O-DU-1122",
+    "radio-resource-management-policy-ratio": [
+      {
+        "id": "rrm-pol-1",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-1",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-2",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-2",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-3",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-3",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-4",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-4",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-5",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-5",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 3,
+            "slice-service-type": 1
+          }
+        ]
+      }
+    ],
+    "cell": [
+      {
+        "id": "cell-1",
+        "local-id": 1,
+        "physical-cell-id": 1,
+        "base-station-channel-bandwidth": {
+          "uplink": 83000,
+          "downlink": 80000,
+          "supplementary-uplink": 84000
+        },
+        "operational-state": "enabled",
+        "tracking-area-code": 10,
+        "administrative-state": "unlocked",
+        "public-land-mobile-networks": [
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          }
+        ],
+        "supported-measurements": [
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-uplink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          },
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-downlink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          }
+        ],
+        "traffic-state": "active",
+        "absolute-radio-frequency-channel-number": {
+          "uplink": 14000,
+          "downlink": 15000,
+          "supplementary-uplink": 14500
+        },
+        "user-label": "cell-1",
+        "synchronization-signal-block": {
+          "duration": 2,
+          "frequency-channel-number": 12,
+          "periodicity": 10,
+          "subcarrier-spacing": 30,
+          "offset": 3
+        }
+      }
+    ]
+  }
+][
+  {
+    "id": "O-DU-1122",
+    "operational-state": "enabled",
+    "administrative-state": "unlocked",
+    "user-label": "O-DU-1122",
+    "radio-resource-management-policy-ratio": [
+      {
+        "id": "rrm-pol-1",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-1",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-2",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-2",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-3",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-3",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-4",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-4",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-5",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-5",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 3,
+            "slice-service-type": 1
+          }
+        ]
+      }
+    ],
+    "cell": [
+      {
+        "id": "cell-1",
+        "local-id": 1,
+        "physical-cell-id": 1,
+        "base-station-channel-bandwidth": {
+          "uplink": 83000,
+          "downlink": 80000,
+          "supplementary-uplink": 84000
+        },
+        "operational-state": "enabled",
+        "tracking-area-code": 10,
+        "administrative-state": "unlocked",
+        "public-land-mobile-networks": [
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          }
+        ],
+        "supported-measurements": [
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-uplink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          },
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-downlink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          }
+        ],
+        "traffic-state": "active",
+        "absolute-radio-frequency-channel-number": {
+          "uplink": 14000,
+          "downlink": 15000,
+          "supplementary-uplink": 14500
+        },
+        "user-label": "cell-1",
+        "synchronization-signal-block": {
+          "duration": 2,
+          "frequency-channel-number": 12,
+          "periodicity": 10,
+          "subcarrier-spacing": 30,
+          "offset": 3
+        }
+      }
+    ]
+  }
+][
+  {
+    "id": "O-DU-1122",
+    "operational-state": "enabled",
+    "administrative-state": "unlocked",
+    "user-label": "O-DU-1122",
+    "radio-resource-management-policy-ratio": [
+      {
+        "id": "rrm-pol-1",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-1",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-2",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-2",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-3",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-3",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-4",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-4",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-5",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-5",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 3,
+            "slice-service-type": 1
+          }
+        ]
+      }
+    ],
+    "cell": [
+      {
+        "id": "cell-1",
+        "local-id": 1,
+        "physical-cell-id": 1,
+        "base-station-channel-bandwidth": {
+          "uplink": 83000,
+          "downlink": 80000,
+          "supplementary-uplink": 84000
+        },
+        "operational-state": "enabled",
+        "tracking-area-code": 10,
+        "administrative-state": "unlocked",
+        "public-land-mobile-networks": [
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          }
+        ],
+        "supported-measurements": [
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-uplink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          },
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-downlink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          }
+        ],
+        "traffic-state": "active",
+        "absolute-radio-frequency-channel-number": {
+          "uplink": 14000,
+          "downlink": 15000,
+          "supplementary-uplink": 14500
+        },
+        "user-label": "cell-1",
+        "synchronization-signal-block": {
+          "duration": 2,
+          "frequency-channel-number": 12,
+          "periodicity": 10,
+          "subcarrier-spacing": 30,
+          "offset": 3
+        }
+      }
+    ]
+  }
+][
+  {
+    "id": "O-DU-1122",
+    "operational-state": "enabled",
+    "administrative-state": "unlocked",
+    "user-label": "O-DU-1122",
+    "radio-resource-management-policy-ratio": [
+      {
+        "id": "rrm-pol-1",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-1",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-2",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-2",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-3",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-3",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-4",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-4",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-5",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-5",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 3,
+            "slice-service-type": 1
+          }
+        ]
+      }
+    ],
+    "cell": [
+      {
+        "id": "cell-1",
+        "local-id": 1,
+        "physical-cell-id": 1,
+        "base-station-channel-bandwidth": {
+          "uplink": 83000,
+          "downlink": 80000,
+          "supplementary-uplink": 84000
+        },
+        "operational-state": "enabled",
+        "tracking-area-code": 10,
+        "administrative-state": "unlocked",
+        "public-land-mobile-networks": [
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          }
+        ],
+        "supported-measurements": [
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-uplink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          },
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-downlink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          }
+        ],
+        "traffic-state": "active",
+        "absolute-radio-frequency-channel-number": {
+          "uplink": 14000,
+          "downlink": 15000,
+          "supplementary-uplink": 14500
+        },
+        "user-label": "cell-1",
+        "synchronization-signal-block": {
+          "duration": 2,
+          "frequency-channel-number": 12,
+          "periodicity": 10,
+          "subcarrier-spacing": 30,
+          "offset": 3
+        }
+      }
+    ]
+  }
+]{
+  "radio-resource-management-policy-ratio": [
+    {
+      "id": "rrm-pol-3",
+      "administrative-state": "unlocked",
+      "user-label": "rrm-pol-3",
+      "radio-resource-management-policy-max-ratio": 20,
+      "radio-resource-management-policy-min-ratio": 10,
+      "radio-resource-management-policy-dedicated-ratio": 25,
+      "resource-type": "prb",
+      "radio-resource-management-policy-members": [
+        {
+          "mobile-country-code": "046",
+          "mobile-network-code": "651",
+          "slice-differentiator": 2,
+          "slice-service-type": 1
+        }
+      ]
+    }
+  ]
+}[
+  {
+    "id": "O-DU-1122",
+    "operational-state": "enabled",
+    "administrative-state": "unlocked",
+    "user-label": "O-DU-1122",
+    "radio-resource-management-policy-ratio": [
+      {
+        "id": "rrm-pol-1",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-1",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-2",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-2",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-3",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-3",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-4",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-4",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-5",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-5",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 3,
+            "slice-service-type": 1
+          }
+        ]
+      }
+    ],
+    "cell": [
+      {
+        "id": "cell-1",
+        "local-id": 1,
+        "physical-cell-id": 1,
+        "base-station-channel-bandwidth": {
+          "uplink": 83000,
+          "downlink": 80000,
+          "supplementary-uplink": 84000
+        },
+        "operational-state": "enabled",
+        "tracking-area-code": 10,
+        "administrative-state": "unlocked",
+        "public-land-mobile-networks": [
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          }
+        ],
+        "supported-measurements": [
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-uplink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          },
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-downlink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          }
+        ],
+        "traffic-state": "active",
+        "absolute-radio-frequency-channel-number": {
+          "uplink": 14000,
+          "downlink": 15000,
+          "supplementary-uplink": 14500
+        },
+        "user-label": "cell-1",
+        "synchronization-signal-block": {
+          "duration": 2,
+          "frequency-channel-number": 12,
+          "periodicity": 10,
+          "subcarrier-spacing": 30,
+          "offset": 3
+        }
+      }
+    ]
+  }
+][
+  {
+    "id": "O-DU-1122",
+    "operational-state": "enabled",
+    "administrative-state": "unlocked",
+    "user-label": "O-DU-1122",
+    "radio-resource-management-policy-ratio": [
+      {
+        "id": "rrm-pol-1",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-1",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-2",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-2",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-3",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-3",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-4",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-4",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-5",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-5",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 3,
+            "slice-service-type": 1
+          }
+        ]
+      }
+    ],
+    "cell": [
+      {
+        "id": "cell-1",
+        "local-id": 1,
+        "physical-cell-id": 1,
+        "base-station-channel-bandwidth": {
+          "uplink": 83000,
+          "downlink": 80000,
+          "supplementary-uplink": 84000
+        },
+        "operational-state": "enabled",
+        "tracking-area-code": 10,
+        "administrative-state": "unlocked",
+        "public-land-mobile-networks": [
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          }
+        ],
+        "supported-measurements": [
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-uplink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          },
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-downlink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          }
+        ],
+        "traffic-state": "active",
+        "absolute-radio-frequency-channel-number": {
+          "uplink": 14000,
+          "downlink": 15000,
+          "supplementary-uplink": 14500
+        },
+        "user-label": "cell-1",
+        "synchronization-signal-block": {
+          "duration": 2,
+          "frequency-channel-number": 12,
+          "periodicity": 10,
+          "subcarrier-spacing": 30,
+          "offset": 3
+        }
+      }
+    ]
+  }
+][
+  {
+    "id": "O-DU-1122",
+    "operational-state": "enabled",
+    "administrative-state": "unlocked",
+    "user-label": "O-DU-1122",
+    "radio-resource-management-policy-ratio": [
+      {
+        "id": "rrm-pol-1",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-1",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-2",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-2",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-3",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-3",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-4",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-4",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-5",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-5",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 3,
+            "slice-service-type": 1
+          }
+        ]
+      }
+    ],
+    "cell": [
+      {
+        "id": "cell-1",
+        "local-id": 1,
+        "physical-cell-id": 1,
+        "base-station-channel-bandwidth": {
+          "uplink": 83000,
+          "downlink": 80000,
+          "supplementary-uplink": 84000
+        },
+        "operational-state": "enabled",
+        "tracking-area-code": 10,
+        "administrative-state": "unlocked",
+        "public-land-mobile-networks": [
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          }
+        ],
+        "supported-measurements": [
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-uplink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          },
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-downlink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          }
+        ],
+        "traffic-state": "active",
+        "absolute-radio-frequency-channel-number": {
+          "uplink": 14000,
+          "downlink": 15000,
+          "supplementary-uplink": 14500
+        },
+        "user-label": "cell-1",
+        "synchronization-signal-block": {
+          "duration": 2,
+          "frequency-channel-number": 12,
+          "periodicity": 10,
+          "subcarrier-spacing": 30,
+          "offset": 3
+        }
+      }
+    ]
+  }
+]{
+  "radio-resource-management-policy-ratio": [
+    {
+      "id": "rrm-pol-1",
+      "administrative-state": "unlocked",
+      "user-label": "rrm-pol-1",
+      "radio-resource-management-policy-max-ratio": 20,
+      "radio-resource-management-policy-min-ratio": 10,
+      "radio-resource-management-policy-dedicated-ratio": 25,
+      "resource-type": "prb",
+      "radio-resource-management-policy-members": [
+        {
+          "mobile-country-code": "046",
+          "mobile-network-code": "651",
+          "slice-differentiator": 1,
+          "slice-service-type": 1
+        }
+      ]
+    }
+  ]
+}[
+  {
+    "id": "O-DU-1122",
+    "operational-state": "enabled",
+    "administrative-state": "unlocked",
+    "user-label": "O-DU-1122",
+    "radio-resource-management-policy-ratio": [
+      {
+        "id": "rrm-pol-1",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-1",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-2",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-2",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-3",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-3",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-4",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-4",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-5",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-5",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 3,
+            "slice-service-type": 1
+          }
+        ]
+      }
+    ],
+    "cell": [
+      {
+        "id": "cell-1",
+        "local-id": 1,
+        "physical-cell-id": 1,
+        "base-station-channel-bandwidth": {
+          "uplink": 83000,
+          "downlink": 80000,
+          "supplementary-uplink": 84000
+        },
+        "operational-state": "enabled",
+        "tracking-area-code": 10,
+        "administrative-state": "unlocked",
+        "public-land-mobile-networks": [
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          }
+        ],
+        "supported-measurements": [
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-uplink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          },
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-downlink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          }
+        ],
+        "traffic-state": "active",
+        "absolute-radio-frequency-channel-number": {
+          "uplink": 14000,
+          "downlink": 15000,
+          "supplementary-uplink": 14500
+        },
+        "user-label": "cell-1",
+        "synchronization-signal-block": {
+          "duration": 2,
+          "frequency-channel-number": 12,
+          "periodicity": 10,
+          "subcarrier-spacing": 30,
+          "offset": 3
+        }
+      }
+    ]
+  }
+][
+  {
+    "id": "O-DU-1122",
+    "operational-state": "enabled",
+    "administrative-state": "unlocked",
+    "user-label": "O-DU-1122",
+    "radio-resource-management-policy-ratio": [
+      {
+        "id": "rrm-pol-1",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-1",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-2",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-2",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-3",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-3",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-4",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-4",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-5",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-5",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 3,
+            "slice-service-type": 1
+          }
+        ]
+      }
+    ],
+    "cell": [
+      {
+        "id": "cell-1",
+        "local-id": 1,
+        "physical-cell-id": 1,
+        "base-station-channel-bandwidth": {
+          "uplink": 83000,
+          "downlink": 80000,
+          "supplementary-uplink": 84000
+        },
+        "operational-state": "enabled",
+        "tracking-area-code": 10,
+        "administrative-state": "unlocked",
+        "public-land-mobile-networks": [
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          }
+        ],
+        "supported-measurements": [
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-uplink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          },
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-downlink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          }
+        ],
+        "traffic-state": "active",
+        "absolute-radio-frequency-channel-number": {
+          "uplink": 14000,
+          "downlink": 15000,
+          "supplementary-uplink": 14500
+        },
+        "user-label": "cell-1",
+        "synchronization-signal-block": {
+          "duration": 2,
+          "frequency-channel-number": 12,
+          "periodicity": 10,
+          "subcarrier-spacing": 30,
+          "offset": 3
+        }
+      }
+    ]
+  }
+][
+  {
+    "id": "O-DU-1122",
+    "operational-state": "enabled",
+    "administrative-state": "unlocked",
+    "user-label": "O-DU-1122",
+    "radio-resource-management-policy-ratio": [
+      {
+        "id": "rrm-pol-1",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-1",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-2",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-2",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-3",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-3",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-4",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-4",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-5",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-5",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 3,
+            "slice-service-type": 1
+          }
+        ]
+      }
+    ],
+    "cell": [
+      {
+        "id": "cell-1",
+        "local-id": 1,
+        "physical-cell-id": 1,
+        "base-station-channel-bandwidth": {
+          "uplink": 83000,
+          "downlink": 80000,
+          "supplementary-uplink": 84000
+        },
+        "operational-state": "enabled",
+        "tracking-area-code": 10,
+        "administrative-state": "unlocked",
+        "public-land-mobile-networks": [
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          }
+        ],
+        "supported-measurements": [
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-uplink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          },
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-downlink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          }
+        ],
+        "traffic-state": "active",
+        "absolute-radio-frequency-channel-number": {
+          "uplink": 14000,
+          "downlink": 15000,
+          "supplementary-uplink": 14500
+        },
+        "user-label": "cell-1",
+        "synchronization-signal-block": {
+          "duration": 2,
+          "frequency-channel-number": 12,
+          "periodicity": 10,
+          "subcarrier-spacing": 30,
+          "offset": 3
+        }
+      }
+    ]
+  }
+][
+  {
+    "id": "O-DU-1122",
+    "operational-state": "enabled",
+    "administrative-state": "unlocked",
+    "user-label": "O-DU-1122",
+    "radio-resource-management-policy-ratio": [
+      {
+        "id": "rrm-pol-1",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-1",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-2",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-2",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-3",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-3",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-4",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-4",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-5",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-5",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 3,
+            "slice-service-type": 1
+          }
+        ]
+      }
+    ],
+    "cell": [
+      {
+        "id": "cell-1",
+        "local-id": 1,
+        "physical-cell-id": 1,
+        "base-station-channel-bandwidth": {
+          "uplink": 83000,
+          "downlink": 80000,
+          "supplementary-uplink": 84000
+        },
+        "operational-state": "enabled",
+        "tracking-area-code": 10,
+        "administrative-state": "unlocked",
+        "public-land-mobile-networks": [
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          }
+        ],
+        "supported-measurements": [
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-uplink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          },
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-downlink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          }
+        ],
+        "traffic-state": "active",
+        "absolute-radio-frequency-channel-number": {
+          "uplink": 14000,
+          "downlink": 15000,
+          "supplementary-uplink": 14500
+        },
+        "user-label": "cell-1",
+        "synchronization-signal-block": {
+          "duration": 2,
+          "frequency-channel-number": 12,
+          "periodicity": 10,
+          "subcarrier-spacing": 30,
+          "offset": 3
+        }
+      }
+    ]
+  }
+][
+  {
+    "id": "O-DU-1122",
+    "operational-state": "enabled",
+    "administrative-state": "unlocked",
+    "user-label": "O-DU-1122",
+    "radio-resource-management-policy-ratio": [
+      {
+        "id": "rrm-pol-1",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-1",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-2",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-2",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-3",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-3",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-4",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-4",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-5",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-5",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 3,
+            "slice-service-type": 1
+          }
+        ]
+      }
+    ],
+    "cell": [
+      {
+        "id": "cell-1",
+        "local-id": 1,
+        "physical-cell-id": 1,
+        "base-station-channel-bandwidth": {
+          "uplink": 83000,
+          "downlink": 80000,
+          "supplementary-uplink": 84000
+        },
+        "operational-state": "enabled",
+        "tracking-area-code": 10,
+        "administrative-state": "unlocked",
+        "public-land-mobile-networks": [
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          }
+        ],
+        "supported-measurements": [
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-uplink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          },
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-downlink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          }
+        ],
+        "traffic-state": "active",
+        "absolute-radio-frequency-channel-number": {
+          "uplink": 14000,
+          "downlink": 15000,
+          "supplementary-uplink": 14500
+        },
+        "user-label": "cell-1",
+        "synchronization-signal-block": {
+          "duration": 2,
+          "frequency-channel-number": 12,
+          "periodicity": 10,
+          "subcarrier-spacing": 30,
+          "offset": 3
+        }
+      }
+    ]
+  }
+][
+  {
+    "id": "O-DU-1122",
+    "operational-state": "enabled",
+    "administrative-state": "unlocked",
+    "user-label": "O-DU-1122",
+    "radio-resource-management-policy-ratio": [
+      {
+        "id": "rrm-pol-1",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-1",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-2",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-2",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 1,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-3",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-3",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 25,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 1
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-4",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-4",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 2,
+            "slice-service-type": 2
+          }
+        ]
+      },
+      {
+        "id": "rrm-pol-5",
+        "administrative-state": "locked",
+        "user-label": "rrm-pol-5",
+        "radio-resource-management-policy-max-ratio": 20,
+        "radio-resource-management-policy-min-ratio": 10,
+        "radio-resource-management-policy-dedicated-ratio": 15,
+        "resource-type": "prb",
+        "radio-resource-management-policy-members": [
+          {
+            "mobile-country-code": "310",
+            "mobile-network-code": "150",
+            "slice-differentiator": 3,
+            "slice-service-type": 1
+          }
+        ]
+      }
+    ],
+    "cell": [
+      {
+        "id": "cell-1",
+        "local-id": 1,
+        "physical-cell-id": 1,
+        "base-station-channel-bandwidth": {
+          "uplink": 83000,
+          "downlink": 80000,
+          "supplementary-uplink": 84000
+        },
+        "operational-state": "enabled",
+        "tracking-area-code": 10,
+        "administrative-state": "unlocked",
+        "public-land-mobile-networks": [
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 1,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 2,
+            "slice-service-type": 2,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          },
+          {
+            "slice-differentiator": 3,
+            "slice-service-type": 1,
+            "mobile-country-code": "310",
+            "mobile-network-code": "150"
+          }
+        ],
+        "supported-measurements": [
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-uplink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          },
+          {
+            "performance-measurement-type": "o-ran-sc-du-hello-world:user-equipment-average-throughput-downlink",
+            "supported-snssai-subcounter-instances": [
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 1,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 2,
+                "slice-service-type": 2
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              },
+              {
+                "slice-differentiator": 3,
+                "slice-service-type": 1
+              }
+            ]
+          }
+        ],
+        "traffic-state": "active",
+        "absolute-radio-frequency-channel-number": {
+          "uplink": 14000,
+          "downlink": 15000,
+          "supplementary-uplink": 14500
+        },
+        "user-label": "cell-1",
+        "synchronization-signal-block": {
+          "duration": 2,
+          "frequency-channel-number": 12,
+          "periodicity": 10,
+          "subcarrier-spacing": 30,
+          "offset": 3
+        }
+      }
+    ]
+  }
+]
